@@ -1,6 +1,6 @@
 // Ensure EmailJS is initialized with your user ID
 (function(){
-    emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+    emailjs.init("y-6vbKHEMfKaqhXmC"); // Replace with your EmailJS user ID
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
@@ -14,7 +14,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         message: document.getElementById('message').value,
     };
 
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams) // Replace with your service and template IDs
+    emailjs.send('service_o9rk1pc', 'template_mi9midh', templateParams) // Replace with your service and template IDs
         .then(function(response) {
             alert('Message sent successfully!');
         }, function(error) {
