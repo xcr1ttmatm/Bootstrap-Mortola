@@ -10,7 +10,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     event.preventDefault();
     // Send the email using the form data
     console.log(this)
-    emailjs.sendForm('service_o9rk1pc', 'template_mi9midh', this)
+    emailjs.sendForm('service_o9rk1pc', 'template_dluwznj', this)
         .then(function() {
             alert('Message Sent Successfully!');
         }, function(error) {
