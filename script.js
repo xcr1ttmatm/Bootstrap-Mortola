@@ -1,23 +1,19 @@
-// Ensure EmailJS is initialized with your user ID
-(function(){
-    emailjs.init("BTpHwpVtO8gdZzP-l"); // Replace with your EmailJS user ID
+
+ // Initialize EmailJS with your user ID
+ (function(){
+    emailjs.init("BTpHwpVtO8gdZzP-l");
 })();
 
+
+// Function to send email using EmailJS
 document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
-
-    // Generate a unique ID for your message
-    const templateParams = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        subject: document.getElementById('subject').value,
-        message: document.getElementById('message').value,
-    };
-
-    emailjs.send('service_o9rk1pc', 'template_mi9midh', templateParams) // Replace with your service and template IDs
-        .then(function(response) {
-            alert('Message sent successfully!');
+    event.preventDefault();
+    // Send the email using the form data
+    console.log(this)
+    emailjs.sendForm('service_o9rk1pc', 'template_mi9midh', this)
+        .then(function() {
+            alert('Message Sent Successfully!');
         }, function(error) {
-            alert('Failed to send message. Please try again.');
+            alert('Failed to send the message: ' + JSON.stringify(error));
         });
 });
