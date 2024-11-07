@@ -3,8 +3,8 @@
     object-fit: scale-down;
     border-radius: 2%;
 }
-.py-5 {
-    background-image: url("images/bg.gif");
+body, .py-5 {
+    background-image: url("bg.gif");
 }
 .cirlcle-friends {
     width: 325px;
@@ -18,7 +18,48 @@
     color: white;
 }
 .forms {
-    background-image: url(images/1pw.gif);
+    background-image: url("1pw.gif");
     filter: blur("50%");
     border-radius: 1%;
+}
+.containerxv1 {
+        background-color: #222;
+        padding: 20px;
+        border-radius: 10px;
+        gap: 20px;
+        width: 40%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        height: 20vh;
+        margin: 0;
+}
+.skill {
+    display: flex;
+    align-items: center;
+}
+.skill-name {
+    font-weight: bold;
+    width: 30%;
+    color: white;
+}
+.progress-bar {
+    width: 60%;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.progress {
+    height: 8px;
+    background-color: #ff0055;
+}
+.skill-percentage {
+    width: 10%;
+    text-align: right;
+    color: white;
+}
+footer {
+    background-color: white;
+    text-align: center;
 }
