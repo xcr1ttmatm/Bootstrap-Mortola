@@ -4,7 +4,7 @@
     border-radius: 2%;
 }
 .py-5 {
-    background-image: url("bg.gif");
+    background-image: url("images/bg.gif");
 }
 .cirlcle-friends {
     width: 325px;
@@ -18,7 +18,7 @@
     color: white;
 }
 .forms {
-    background-image: url(1pw.gif);
+    background-image: url(images/1pw.gif);
     filter: blur("50%");
     border-radius: 1%;
 }
