@@ -4,7 +4,7 @@
     border-radius: 2%;
 }
 body, .py-5 {
-    background-image: url("bg.gif");
+     background-image: url("bg.gif");
 }
 .cirlcle-friends {
     width: 325px;
@@ -32,7 +32,7 @@ body, .py-5 {
         grid-template-columns: 1fr 1fr;
         align-items: center;
         height: 20vh;
-        margin: 0;
+        margin: 5% auto;
 }
 .skill {
     display: flex;
@@ -40,7 +40,7 @@ body, .py-5 {
 }
 .skill-name {
     font-weight: bold;
-    width: 30%;
+    width: 22%;
     color: white;
 }
 .progress-bar {
@@ -55,7 +55,7 @@ body, .py-5 {
     background-color: #ff0055;
 }
 .skill-percentage {
-    width: 10%;
+    width: 15%;
     text-align: right;
     color: white;
 }
