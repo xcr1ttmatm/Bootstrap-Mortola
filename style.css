@@ -4,7 +4,10 @@
     border-radius: 2%;
 }
 body, .py-5 {
-     background-image: url("bg.gif");
+    background-color: #ADE1FB;
+}
+.header1 {
+    background-color: #ADE1FB;
 }
 .cirlcle-friends {
     width: 325px;
@@ -62,4 +65,5 @@ body, .py-5 {
 footer {
     background-color: white;
     text-align: center;
+    font-size: 15px;
 }
