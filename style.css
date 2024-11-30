@@ -1,5 +1,5 @@
 .photo-nako {
-    width: 325px;
+    width: 380px;
     object-fit: scale-down;
     border-radius: 2%;
 }
@@ -10,7 +10,7 @@ body, .py-5 {
     background-color: #ADE1FB;
 }
 .cirlcle-friends {
-    width: 325px;
+    width: 380px;
     object-fit: scale-down;
     border-radius: 2%;
 }
@@ -66,4 +66,10 @@ footer {
     background-color: white;
     text-align: center;
     font-size: 15px;
+}
+.socmed {
+    background-color: blue;
+}
+.bg-black {
+    background-color: black;
 }
