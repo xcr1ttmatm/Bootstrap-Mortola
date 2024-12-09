@@ -9,10 +9,12 @@ body, .py-5 {
 .header1 {
     background-color: #ADE1FB;
 }
-.cirlcle-friends {
+.weatherApp {
     width: 380px;
     object-fit: scale-down;
     border-radius: 2%;
+    height: 415px;
+    border-radius: 20%;
 }
 .mb-4{
     color: white;
@@ -69,7 +71,34 @@ footer {
 }
 .socmed {
     background-color:#495057;
+    text-align: center;
 }
 .bg-black {
     background-color: black;
+}
+.eCommerse {
+    height: 440px;
+    width: 380px;
+    border-radius: 3%;
+}
+#profile {
+    background-color: #2b2e31;
+}
+.akongpicture {
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+.textx {
+    text-align: center;
+    color: white;
+}
+.card-title:hover {
+    background: #495057;
+}
+.btn:hover {
+    background: #2b2e31;
 }
