@@ -102,3 +102,7 @@ footer {
 .btn:hover {
     background: #2b2e31;
 }
+
+.mt-10 {
+    margin-top: 10rem;
+}
