@@ -1,7 +1,7 @@
 .photo-nako {
-    width: 380px;
-    object-fit: scale-down;
+    width: 325px;
     border-radius: 2%;
+    height: 440px;
 }
 body, .py-5 {
     background-color: #212529;
@@ -10,11 +10,9 @@ body, .py-5 {
     background-color: #ADE1FB;
 }
 .weatherApp {
-    width: 380px;
-    object-fit: scale-down;
+    width: 325px;
     border-radius: 2%;
-    height: 415px;
-    border-radius: 20%;
+    height: 440px;
 }
 .mb-4{
     color: white;
@@ -78,7 +76,7 @@ footer {
 }
 .eCommerse {
     height: 440px;
-    width: 380px;
+    width: 330px;
     border-radius: 3%;
 }
 #profile {
